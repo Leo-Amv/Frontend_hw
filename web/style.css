@@ -30,3 +30,8 @@ a {
     font-size: 36px;
     line-height: 80px;
 }
+
+.product_images {
+    border-radius: 10px;
+    width: 150px;
+}
