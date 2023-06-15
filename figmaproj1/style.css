@@ -3,25 +3,14 @@
     padding: 0;
 }
 
-.header {
-    margin-top: 40px;
-    margin-left: 375px;
-}
-
-.logo__text {
-    padding-left: 40px;
-}
-
 .header__menu {
-    margin-left: 500px;
+    margin-top: 40px;
+    margin-bottom: 84px;
 }
 
 .top__content {
-    margin-top: 84px;
-    margin-left: 373px;
+    margin-bottom: 162px;
 }
-
-.top__info {}
 
 .title {
     margin-bottom: 17px;
@@ -32,6 +21,6 @@
 }
 
 .top__logos {
-    margin-top: 97px;
-    margin-left: 345px;
+    padding-top: 97px;
+    padding-bottom: 96px;
 }
