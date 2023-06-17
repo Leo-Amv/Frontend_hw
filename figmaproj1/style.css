@@ -101,3 +101,132 @@ a {
 
     color: #AAAAAA;
 }
+
+.features {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: grid;
+    width: 310px;
+    height: 226px;
+    justify-items: start;
+    align-content: space-between;
+}
+
+.item__big {
+    display: grid;
+    padding-left: 30px;
+    width: 370px;
+    height: 291px;
+    background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    justify-items: start;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.heading {
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.item__text {
+    font-family: 'Gilroy-Medium';
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.buttons {
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+    background: none;
+    border: none;
+}
+
+.services {
+    background: #FAFAFA;
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+.services__top {
+    display: flex;
+    padding-left: calc(50% - 310px);
+    padding-right: calc(50% - 310px);
+    width: 682px;
+    height: 123px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services__content {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.services__heading {
+    font-size: 45px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.services__text {
+    width: 682px;
+    height: 48px;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+}
+
+.services__item {
+    display: flex;
+    width: 370px;
+    height: 549px;
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services__buttons {
+    width: 150px;
+    height: 50px;
+    font-family: 'Gilroy-Bold';
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.services__item__text {
+    width: 310px;
+    height: 63px;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+}
