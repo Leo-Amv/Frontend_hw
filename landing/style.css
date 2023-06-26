@@ -191,6 +191,21 @@ button {
     }
 
     .top__image2 {
-        width: 263px;
+        max-width: 263px;
+    }
+
+    .top {
+        display: flex;
+        justify-content: center;
+        height: 363px;
+    }
+
+    .offer__item {
+        width: 92%;
+    }
+
+    .offer__item__big {
+        width: 92%;
+        image-resolution: 4/3;
     }
 }
