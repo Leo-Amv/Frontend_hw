@@ -176,3 +176,21 @@ button {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .forma3 {
+        display: none;
+    }
+
+    .forma4 {
+        display: none;
+    }
+
+    .top__image {
+        display: none;
+    }
+
+    .top__image2 {
+        width: 263px;
+    }
+}
