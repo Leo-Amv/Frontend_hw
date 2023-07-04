@@ -196,6 +196,8 @@ button {
     display: flex;
     height: 448px;
     background: url(img/photo\ subscribe.jpg), lightgray 0px -169px / 100% 246.875% no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
     justify-content: space-evenly;
     align-items: center;
 
@@ -249,7 +251,7 @@ button {
 .frame__text {
     color: #222224;
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 167.2%;
 }
 
@@ -259,24 +261,81 @@ button {
     display: flex;
 }
 
+
 .input__rectangle {
     display: flex;
-    width: 322.59px;
-    height: 49px;
-    background-image: url(img/Rounded\ Rectangle\ 5.svg);
-    flex-direction: column;
-    justify-content: center;
+    position: relative;
+    align-items: center;
 }
 
-#input__email {
+.rectangle5 {
+    position: relative;
+}
+
+.input__email {
+    position: absolute;
+    z-index: 3;
+    left: 22px;
+    border: none;
+    background: none;
+    width: 170px;
+    height: 36px;
     color: #222224;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     opacity: 0.6710000038146973;
-    border: none;
-    background: none;
+    outline: none;
+}
+
+.submit__rectangle {
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+
+.rectangle6 {
+    left: 252px;
+    position: relative;
+}
+
+.submit {
+    position: absolute;
+    z-index: 3;
+    left: 268px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.submit:active {
+    color: rgb(125, 109, 230);
+}
+
+.copyright {
+    height: 79px;
+    background-color: rgba(34, 34, 36, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copyright__text {
+    color: #FBFBFB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.social {
+    display: flex;
+    gap: 7.29px;
+}
+
+.icons {
+    height: 32px;
 }
 
 @media screen and (max-width: 768px) {
