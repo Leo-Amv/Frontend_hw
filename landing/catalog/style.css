@@ -39,6 +39,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .header__left {
   display: flex;
@@ -49,6 +50,31 @@ button {
   display: flex;
   align-items: center;
   gap: 33px;
+}
+
+.box-content {
+  overflow: hidden;
+}
+
+#burger {
+  position: absolute;
+  left: -99999px;
+  visibility: hidden;
+}
+#burger:checked ~ .nav {
+  right: -232px;
+}
+
+.nav {
+  background: #FFF;
+  filter: drop-shadow(6px 4px 35px rgba(0, 0, 0, 0.21));
+  width: 232px;
+  padding: 32px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 81px;
+  right: 0;
+  transition: right 0.3s;
 }
 
 .top-head {
